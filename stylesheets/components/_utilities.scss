@@ -1,0 +1,97 @@
+.container{
+    max-width: 1024px;
+}
+
+// btn
+.button{
+    margin-left: -250px;
+}
+.btn-result{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: $secondary;
+    font-size: 24px;
+    transition: all 0.5s;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        color: $secondary;
+    }
+}
+
+.rebutton{
+    position: relative;
+    & .btn-another{
+        width: 120px;
+        height: 120px;
+        background-color: $secondary;
+        border: 6px solid;
+        border-radius: 50%;
+        position: relative;
+        cursor: default;
+    }
+
+    // icon
+    & .btn-icon{
+        width: 30px;
+        height: 30px;
+        padding-top: 2px;
+        position: absolute;
+        color: $secondary;
+        border-radius: 50%;
+        bottom: -2px;
+        right: -2px;
+        transition: all 0.5s;
+        cursor: pointer;
+        &:hover{
+            transform: rotate(0.5turn);
+        }
+    }
+    
+    // icon background
+    & .bg-b{
+        background-color: $background-blue;
+    }
+    & .bg-g{
+        background-color: $background-green;
+    }
+    & .bg-y{
+        background-color: $background-yellow;
+    }
+    & .bg-o{
+        background-color: $background-orange;
+    }
+    & .bg-r{
+        background-color: $background-red;
+    }
+}
+
+// bmiStatus
+.bmiStatus{
+    position: absolute;
+    bottom: 20px;
+    right: -63px;
+}
+
+// img
+.img-position{
+    margin-right: -200px;
+}
+
+// li
+.li-width{
+    width: 624px;
+    height: 62px;
+    color: $secondary;
+    font-size: 20px;
+    
+    & span{
+        color: $secondary-200;
+        font-size: 12px;
+    }
+}
+
+// delete icon
+.fa-times{
+    cursor: pointer;
+}

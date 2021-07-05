@@ -1,0 +1,13 @@
+.container{
+    max-width: 1024px;
+}
+.btn{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+/*-----------header-------------*/
+.header .container{
+    color: #FFD366;
+}
